@@ -2,4 +2,4 @@
 This project is for creating Swiggy Website clone.
 
 ## ER-Diagram
-![ERD]("Swiggy Correct ER.jpeg" "ERD")
+![ERD](/Images/SWIGGY_ER.jpeg "ERD")
