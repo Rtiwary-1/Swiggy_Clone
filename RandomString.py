@@ -42,4 +42,29 @@ def Resturant_ID_Gen():
     ran2 = "".join(random.choices(string.digits, k = 3))
     ran_final = ran+ran2
     return ran_final
-print("The randomly generated string is : " + str(Resturant_ID_Gen())) # print the random data  
+
+def Menu_ID_Gen():
+    S = 6  # number of characters in the string.  
+    # call random.choices() string module to find the string in Uppercase + numeric data.  
+    ran = ''.join(random.choices(string.ascii_uppercase + string.digits, k = S))
+    ran2 = "".join(random.choices(string.digits, k = 3))
+    ran_final = ran+ran2
+    return ran_final
+
+def FoodCategory_ID_Gen():
+    S = 2  # number of characters in the string.  
+    # call random.choices() string module to find the string in Uppercase + numeric data.  
+    ran = ''.join(random.choices(string.ascii_uppercase + string.digits, k = S))
+    ran2 = "".join(random.choices(string.digits, k = 3))
+    ran_final = ran+ran2
+    return ran_final
+
+def ItemsOrdered_ID_Gen():
+    S = 7  # number of characters in the string.  
+    # call random.choices() string module to find the string in Uppercase + numeric data.  
+    ran = ''.join(random.choices(string.ascii_uppercase + string.digits, k = S))
+    ran2 = "".join(random.choices(string.digits, k = 5))
+    ran_final = ran+ran2
+    return ran_final
+
+
